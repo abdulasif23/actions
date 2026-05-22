@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Compile Java
-        run: javac *.java
+        run: javac*.java
 
       - name: Run Java program
         run: java Add
